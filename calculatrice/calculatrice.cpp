@@ -2,11 +2,14 @@
 //
 
 #include "calculatrice.h"
+#include "../dependencies/termcolor/include/termcolor/termcolor.hpp"
 
 using namespace std;
 
 int main()
 {
-	cout << "Hello CMake." << endl;
+	while (true) {
+		cout << termcolor::red << "Hello CMake." << endl;
+	}  
 	return 0;
 }
