@@ -24,4 +24,6 @@ public:
 		m_result = pow(f, p);
 		return m_result;
 	}
+
+	
 };
