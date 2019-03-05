@@ -5,8 +5,8 @@
 
 class CalculatriceScientifique : public CalculatriceNormale{
 public:
-	CalculatriceScientifique() {
-
+	CalculatriceScientifique() : CalculatriceNormale(){
+		m_result = 0;
 	}
 
 	float exponentielle(float f) {

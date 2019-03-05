@@ -10,6 +10,7 @@ public:
 
 	float add(float f1, float f2) {
 		m_result = f1 + f2;
+
 		return m_result;
 	}
 
